@@ -18,22 +18,15 @@ This tool will make Linux concepts more fun and memorable while promoting critic
    - The story evolves based on the user’s answers or choices, giving it a gamified and personalized feel.  
 
 2. **Question Types**  
+
    - **Scenario-Based Questions:** Present a situation where users apply Linux concepts to resolve issues.  
    - **Command Debugging:** Ask users to identify and fix errors in commands.  
    - **Hands-On Challenges:** Prompt users to type commands in a simulated or real Linux environment.  
-   - **Multiple-Choice Questions (MCQs):** Creative, contextual questions based on the module. ***(may not be Summer traning , but can use it in season as a practice)***  
+   - **Multiple-Choice Questions (MCQs):** Creative, contextual questions based on the module.
 
-3. **Progress Tracking & Feedback**  
-     
-   - Provide immediate feedback after answering a question, explaining the correct answer. ***(we should make solutions for all modules)***
-
-4. **Hints & Learning Materials**  
+3. **Hints & Learning Materials**  
    - Link back to the relevant section in the GitHub repository for hints or further reading.  
    - Provide optional hints for difficult questions.  
-
-5. **Creative Questions for Each Module**  
-   - Incorporate real-world scenarios or puzzles to make questions engaging.  
-   - Examples included below.  
 
 ---
 
