@@ -25,3 +25,18 @@ a) ls --help
 b) man ls
 c) info ls
 d) Both b and c
+
+<span style="color: red;">*Question 3*:</span>
+
+
+ 3. Create and Move a File
+Scenario:
+You are organizing system reports and need to move a file named sys_report.txt from /home/user/Documents to /var/log/reports/.
+
+Challenge:
+👉 Write the command to move sys_report.txt to /var/log/reports/.
+```bash
+    # Write the command here
+
+```
+<span style="color: red;">*Question 3*:</span>
