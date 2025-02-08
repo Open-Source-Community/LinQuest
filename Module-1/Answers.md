@@ -12,3 +12,10 @@
 
 
    git config --global core.editor "$3"
+
+
+4)
+git checkout/switch SocialCreditBranch
+git rebase main
+git add .
+git commit -m "Glory to CCP! Nothing happened in 1989!"

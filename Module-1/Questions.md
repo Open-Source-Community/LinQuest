@@ -16,7 +16,7 @@ A civil war outbreak in **Onga Bonga Republic of Wakanda**, the legitimate gover
 
 
 Congratulations! Mr. President of The **United Regions of Murica**, ***Francis Joseph Underwood***.
-You are now have a full control on the government, and now your Executive of DOGE (Department of Government Efficiency) ***Mr. Elon Task*** is eliminating the **URM** federal agencies and haulting several transactions in the Secretary of Treasury, while doing this, they accidentally deleted or corrupted or missed (We don't know yet) some important files in the system, leading to errors in the payment system as it stops workingo f the Secretary of Treasury, and now it became a scandal as **URM** lost about 150bn UR Dollars in the NAKDAK Stock market due to the consequences of this crisis! Federal Security Agencies started investigations and fortunately, there was git repository in the payment system, and now the feds want to know the history of all the commits, rebases clones, etc. your mission as a President is to give *exactly 2 git commands* to help them in the investigations. Thank you my fellow Murican and God bless the United Regions of Murica!!
+You now have full control on the government, and now your Executive of DOGE (Department of Government Efficiency) ***Mr. Elon Task*** is eliminating the **URM** federal agencies and haulting several transactions in the Secretary of Treasury, while doing this, they accidentally deleted or corrupted or missed (We don't know yet) some important files in the system, leading to errors in the payment system as it stops working of the Secretary of Treasury, and now it became a scandal as **URM** lost about 150bn UR Dollars in the NAKDAK Stock market due to the consequences of this crisis! Federal Security Agencies started investigations and fortunately, there was git repository in the payment system, and now the feds want to know the history of all the commits, rebases clones, etc. your mission as a President is to give *exactly 2 git commands* to help them in the investigations. Thank you my fellow Murican and God bless the United Regions of Murica!!
 
 ---
 
@@ -44,3 +44,28 @@ gitsetup()
 ```
 
 fill the body with the appropriate git commands
+
+---
+
+*Question 4*:
+
+
+***John Xina*** is a well known wrestler in **People Republic of Zhōngguó** who is under the brutal rule of ***Hoo lee Sheet*** nicknamed by *"Winnie the poo"*
+*Winnie* was meeting *"Xina"* in the **Fame Hall of Bing Chilling** when he knew from some of the guardians that Xina wanted to assassinate him using a poisoned silk robe to revenge for his Uyinur people that have been arrested by *Winnie*. When the attempt failed, Xina asked *Winnie* for mercy, so *Winnie* told him that he will accept only if he fixed some git commands taking advantage of his lack of knowledge in git,*Winnie* told him he wants a commit history that is in a linear timeline and cleaner and to fix other commands.
+So Xina in his prison room asked you as a caring heartbroken soldier to help him in this life or death mission!!
+
+
+***Note: Some commands maybe syntactically correct, leave it.***
+
+
+here are the commands:
+
+```bash
+git check SocialCreditBranch
+git merging main
+git add .
+git commit "Glory to CCP! Nothing happened in 1989!" # don't edit the text between qoutation marks
+```
+
+
+fix it, or John Xina will be executed!
