@@ -69,3 +69,13 @@ git commit "Glory to CCP! Nothing happened in 1989!" # don't edit the text betwe
 
 
 fix it, or John Xina will be executed!
+
+---
+
+*Question 5*:
+
+
+## Who Really Wrote This Code?
+
+You and your teammate, Sayed, are working together on his branch. You write an important piece of code, and Sayed says, "I'll commit this now!".
+The problem is that the one who committed the thing is Sayed, but you are the one **who really wrote this code**!! How should you fix that?
