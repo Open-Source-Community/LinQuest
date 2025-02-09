@@ -28,7 +28,7 @@ d) Both b and c
 
 --------------------------------------------------------------------------
 
- 3. Create and Move a File
+ 3. Move a File
 Scenario:
 You are organizing system reports and need to move a file named sys_report.txt from /home/user/Documents to /var/log/reports/.
 
@@ -36,6 +36,46 @@ Challenge:
 Write the command to move sys_report.txt to /var/log/reports/.
 ```bash
     # Write the command here
-
+```
 --------------------------------------------------------------------------
+4. Scenario:
+Organizing Project Files
+You just started working as a Linux system administrator, and your manager assigns you a task to organize project files in a structured way.
 
+Task 1: Create a New File
+Your manager asks you to create a new text file named report.txt inside the /home/user/Documents/ directory.
+
+Write the command to create the file.
+
+```bash
+    # Write the command here
+
+```
+Task 2: Move the File to Another Directory
+After creating the file, your manager decides that all reports should be stored in /home/user/Reports/.
+
+Write the command to move report.txt from Documents to Reports.
+```bash
+    # Write the command here
+
+```
+
+Task 3: Rename the File
+Now, your manager wants the file name to be more descriptive. You need to rename report.txt to final_report.txt inside the /home/user/Reports/ directory.
+
+ Write the command to rename the file.
+
+ ```bash
+    # Write the command here
+
+```
+
+Bonus Challenge 
+After completing the tasks, list all files in the /home/user/Reports/ directory to confirm that the file has been renamed successfully.
+
+Write the command to list the files in /home/user/Reports/.
+ ```bash
+    # Write the command here
+
+```
+--------------------------------------------------------------------------
