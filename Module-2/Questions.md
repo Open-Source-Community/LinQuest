@@ -1,6 +1,7 @@
 # Module [2] : **"CLI & Linux File System, Getting Help, Viewing Files"**
 ---
-1. Navigating the Linux File System
+## Question 1: Navigating the Linux File System
+
 Scenario: 
 You are troubleshooting a server issue, and your manager asks you to navigate to the system logs stored in /var/log. However, you are currently in your home directory (/home/user).
 
@@ -14,7 +15,8 @@ d) cd home/var/log
 
 --------------------------------------------------------------------------
 
-2. Finding Help in Linux
+## Question 2: Finding Help in Linux
+
 Scenario:
 You're new to Linux and need to understand how the ls command works. You want to find detailed information on all its options.
 
@@ -28,7 +30,8 @@ d) Both b and c
 
 --------------------------------------------------------------------------
 
- 3. Move a File
+## Question3: Move a File
+
 Scenario:
 You are organizing system reports and need to move a file named sys_report.txt from /home/user/Documents to /var/log/reports/.
 
@@ -38,7 +41,9 @@ Write the command to move sys_report.txt to /var/log/reports/.
     # Write the command here
 ```
 --------------------------------------------------------------------------
-4. Scenario:
+## Question 4: 
+
+Scenario:
 Organizing Project Files
 You just started working as a Linux system administrator, and your manager assigns you a task to organize project files in a structured way.
 
@@ -80,15 +85,24 @@ Write the command to list the files in /home/user/Reports/.
 ```
 --------------------------------------------------------------------------
 
-5. Scenario: Extracting and Reading a Compressed File
+## Question 5:
+
+Scenario: Extracting and Reading a Compressed File
 You're a junior Linux administrator, and your manager has just sent you a compressed log file named logs.tar.gz. Your task is to extract the file and review its contents. However, you don’t remember the exact commands to use, so you decide to rely on the Linux help system to guide you.
  ```bash
     # Write the commands here
-    
-
-
-
-
 
 ```
 --------------------------------------------------------------------------
+
+## Question 6:
+
+Ahmed had been working tirelessly on his new project, moving files, organizing directories, and jumping between different folders. He was so focused that he didn’t realize how deep he had gone into the file system. When he finally paused, he had no idea where he was. The terminal prompt wasn’t giving him enough information, and he didn’t want to start over. He needed a way to figure out his exact location before proceeding. What should he do?
+
+---
+
+## Question 7:
+
+Sara was tasked with reviewing a project folder that had been passed down from a previous developer. She knew there were important files in it, but when she ran the ls command, she didn’t see as many files as she expected. She remembered hearing that Linux hides certain files—ones that start with a dot (.)—but she wasn’t sure how to reveal them. She considered checking the documentation before making any assumptions. What should she do?
+
+---
