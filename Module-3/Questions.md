@@ -1,5 +1,4 @@
 # Module [3] : **"Creating Links & Finding Files"**
----
 ### [1] Soft links:
 1. **Scenario:** Minty is organizing his project files and accidentally deletes a file named `IMPORTANT.txt`. However, he remembers creating a soft link to it named `important_link`.  
 **Question:** What happens when he tries to access `important_link`?  
@@ -42,3 +41,4 @@ This is the command she wrote:
     - **b)** It enters an infinite loop.
     - **c)** It displays an error because recursive links are not allowed.
     - **d)** It creates a new file named `linkB`.
+
