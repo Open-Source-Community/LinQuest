@@ -1,5 +1,5 @@
 # Module [2] : **"CLI & Linux File System, Getting Help, Viewing Files"**
----
+
 ## Question 1: Navigating the Linux File System
 
 Scenario: 
@@ -106,3 +106,34 @@ Ahmed had been working tirelessly on his new project, moving files, organizing d
 Sara was tasked with reviewing a project folder that had been passed down from a previous developer. She knew there were important files in it, but when she ran the ls command, she didn’t see as many files as she expected. She remembered hearing that Linux hides certain files—ones that start with a dot (.)—but she wasn’t sure how to reveal them. She considered checking the documentation before making any assumptions. What should she do?
 
 ---
+
+## Question 8:
+
+Nour had been using her Linux machine for years without ever thinking about disk space. But today, she received a warning: Low disk space! She knew she had to clean up, but first, she needed to find out what was taking up so much room. Instead of randomly deleting files, she wanted a clear picture of her disk usage. What commands should she use?
+
+---
+
+## Question 9:
+
+Yousef had been taking notes for his online course, but he realized that he had been saving everything directly in his home directory. To keep things organized, he decided to move his notes to the Documents folder. However, he hadn’t created the file yet.
+
+**Task 1:** He quickly opened his terminal and thought, First, I need to create the file.
+**Task 2:** Now that notes.txt exists in his home directory, he needs to move it to the Documents folder.
+**Task 3:** Later, he decides the name notes.txt is too vague. While moving the file, he renames it to meeting_notes.txt.
+
+**Note:** This question requires three commands.
+
+---
+
+## Question 10:
+
+Layla had been working on a new project for weeks. She had a folder called project_A where she kept all her files. Before making some big changes, she thought, What if something goes wrong? I should create a backup first.
+
+But then she realized—she hadn’t even created the project folder yet!
+What should she do first?
+
+**Task 1:** Layla starts by creating the project directory.
+**Task 2:** Inside project_A, she needs a file to document important details about the project, so she creates a README.md file.
+**Task 3:** Now that her project folder is set up, she makes a backup before proceeding.
+
+**Note:** This question requires three commands.
