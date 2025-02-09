@@ -83,7 +83,12 @@ Write the command to list the files in /home/user/Reports/.
 5. Scenario: Extracting and Reading a Compressed File
 You're a junior Linux administrator, and your manager has just sent you a compressed log file named logs.tar.gz. Your task is to extract the file and review its contents. However, you don’t remember the exact commands to use, so you decide to rely on the Linux help system to guide you.
  ```bash
-    # Write the command here
+    # Write the commands here
+    
+
+
+
+
 
 ```
 --------------------------------------------------------------------------
