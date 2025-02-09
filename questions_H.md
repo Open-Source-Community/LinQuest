@@ -1,4 +1,3 @@
-Sure, here's your text with numbered scenarios and solutions:
 
 1. **Scenario:** Your development team has a shared directory `/project` that should only be accessible by members of the `devs` group. You need to ensure that only `devs` members can read, write, and execute files in this directory.
    **Question:** Write the command to change the directory ownership to the `devs` group and give the group full access while restricting others.
