@@ -64,8 +64,30 @@ here are the commands:
 git check SocialCreditBranch
 git merging main
 git add .
-git commit "Glory to CCP! Nothing happened in 1989!" # don't edit the text between qoutation marks
+git commit "Glory to CCP! Nothing happened in 1989!" # don't edit the text between quotation marks
 ```
 
 
 fix it, or John Xina will be executed!
+
+
+---
+
+
+*Question 6*:
+
+
+**Vekhadimir Putout** was an ambitious leader, he built a huge army for his *Moscovite Federation* to conquer new countries and oppress any rebellion inside the federation. However, this army because of his rapid military expansions on several fronts such as *Nokhchicho de facto state* and *Free Republic of kakaistan* etc. It was a necessity for the *Ministry of Defence in Muscovy* to build a real-time GIS database based on git to show the rapid and recently territorial changes in those fronts. the Database work as the following:
+
+1. they give every soldier a GPS tracker to know his accurate position in the battle
+2. the Field commanders send daily updates based on the tracked GPS positions on the map along with other classified details that describe the type of control, date of control etc.
+3. the AI engine of the ministry modify the file of the database (which is a GIS map) with this new updates without certifing or checking it, just updates it with the new information.
+4. finally, the general staff of the army meet on a regular time basis and assess the new modifications then they publish the assessed and certified map.
+
+Now you are one of those military developers that build this GIS database using git, which git command you will use to develop a functionality that shows the staff officers the difference between the map with new modifications and the last certified map?
+
+
+**Hint: assume the last certified map is a pointee of the HEAD**
+
+
+---
