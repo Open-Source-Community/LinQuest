@@ -121,10 +121,15 @@ How can you commit and push only the finished authentication files while removin
 
 
 a. ```bash git reset --soft ```
+
+
 b. ```bash git restore --staged . ```
+
+
 c. ```bash git reset --staged <file1> <file2> <file3> ```
+
+
 d. ```bash git restore --staged <file1> <file2> <file3>  ```
 
 
 ---
-
