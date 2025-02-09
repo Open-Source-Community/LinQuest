@@ -1,15 +1,15 @@
 1)
-```bash 
+```bash
 git push
 ```
 
 2)
 ```bash
-
 git log ***[--filename]*** *optional*
 
 
-   git reflog```
+   git reflog
+```
 
 3)
 ``` bash
@@ -34,14 +34,15 @@ git log ***[--filename]*** *optional*
    git add .
 
 
-   git commit -m "Glory to CCP! Nothing happened in 1989!" ```
+   git commit -m "Glory to CCP! Nothing happened in 1989!"
+```
 
 
 5)
 
-   ```bash
+```bash
    git commit --amend --author="Your Name <your.email@example.com>"
-   ```
+```
    What the command does:
    * It **modifies the most recent commit** without changing its content.
    * It updates the **author name** to correctly reflect **who really wrote this code**.
