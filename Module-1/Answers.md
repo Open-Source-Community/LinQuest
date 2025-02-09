@@ -18,6 +18,7 @@
 
 4)
 
+
    git checkout/switch SocialCreditBranch
 
 
@@ -28,6 +29,17 @@
 
 
    git commit -m "Glory to CCP! Nothing happened in 1989!"
+
+
+5)
+
+   ```bash
+   git commit --amend --author="Your Name <your.email@example.com>"
+   ```
+   What the command does:
+   * It **modifies the most recent commit** without changing its content.
+   * It updates the **author name** to correctly reflect **who really wrote this code**.
+   * The **committer** remains **Sayed** because he executed the commit.
 
 
 6)
