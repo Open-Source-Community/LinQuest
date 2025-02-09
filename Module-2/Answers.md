@@ -4,11 +4,14 @@ b)
 ```bash 
     cd /var/log
 ```
+
+
 ---
 
 ## Answer 2:
 
 d) Both b and c
+
 
 ---
 
@@ -40,6 +43,7 @@ d) Both b and c
 ```bash
     ls /home/user/Reports/
 ```
+
 
 ---
 
@@ -82,6 +86,7 @@ If the file is too long to read at once, you use a better approach to scroll thr
 
 ```
 
+
 ---
 
 ## Answer 6:
@@ -89,6 +94,7 @@ If the file is too long to read at once, you use a better approach to scroll thr
 ```bash
     pwd
 ```
+
 
 ---
 
@@ -101,6 +107,7 @@ If the file is too long to read at once, you use a better approach to scroll thr
 ```bash
     ls --help
 ```
+
 
 ---
 
@@ -115,6 +122,7 @@ To find out which folders/files in your current directory are the biggest, you c
 ```bash
     du -sh *
 ```
+
 
 ---
 
@@ -139,6 +147,7 @@ To find out which folders/files in your current directory are the biggest, you c
 ```bash
     ls ~/Documents/
 ```
+
 
 ---
 
