@@ -50,6 +50,7 @@ git log ***[--filename]*** *optional*
 
 
 6)
+
 ```bash
 git diff HEAD
 ```
