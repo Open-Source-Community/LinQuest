@@ -23,10 +23,10 @@ You're new to Linux and need to understand how the ls command works. You want to
 Question:
 Which command provides the most detailed manual for ls?
 
- -a) ls --help
- -b) man ls
- -c) info ls
- -d) Both b and c
+ -  a) ls --help
+ -  b) man ls
+ -  c) info ls
+ -  d) Both b and c
 
 --------------------------------------------------------------------------
 
