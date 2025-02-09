@@ -47,7 +47,7 @@ Scenario:
 Organizing Project Files
 You just started working as a Linux system administrator, and your manager assigns you a task to organize project files in a structured way.
 
-Task 1: Create a New File
+**Task 1:** Create a New File
 Your manager asks you to create a new text file named report.txt inside the /home/user/Documents/ directory.
 
 Write the command to create the file.
@@ -56,7 +56,7 @@ Write the command to create the file.
     # Write the command here
 
 ```
-Task 2: Move the File to Another Directory
+**Task 2:** Move the File to Another Directory
 After creating the file, your manager decides that all reports should be stored in /home/user/Reports/.
 
 Write the command to move report.txt from Documents to Reports.
@@ -65,7 +65,7 @@ Write the command to move report.txt from Documents to Reports.
 
 ```
 
-Task 3: Rename the File
+**Task 3:** Rename the File
 Now, your manager wants the file name to be more descriptive. You need to rename report.txt to final_report.txt inside the /home/user/Reports/ directory.
 
  Write the command to rename the file.
@@ -75,7 +75,7 @@ Now, your manager wants the file name to be more descriptive. You need to rename
 
 ```
 
-Bonus Challenge 
+**Bonus Challenge** 
 After completing the tasks, list all files in the /home/user/Reports/ directory to confirm that the file has been renamed successfully.
 
 Write the command to list the files in /home/user/Reports/.
@@ -118,7 +118,9 @@ Nour had been using her Linux machine for years without ever thinking about disk
 Yousef had been taking notes for his online course, but he realized that he had been saving everything directly in his home directory. To keep things organized, he decided to move his notes to the Documents folder. However, he hadn’t created the file yet.
 
 **Task 1:** He quickly opened his terminal and thought, First, I need to create the file.
+
 **Task 2:** Now that notes.txt exists in his home directory, he needs to move it to the Documents folder.
+
 **Task 3:** Later, he decides the name notes.txt is too vague. While moving the file, he renames it to meeting_notes.txt.
 
 **Note:** This question requires three commands.
@@ -133,7 +135,9 @@ But then she realized—she hadn’t even created the project folder yet!
 What should she do first?
 
 **Task 1:** Layla starts by creating the project directory.
+
 **Task 2:** Inside project_A, she needs a file to document important details about the project, so she creates a README.md file.
+
 **Task 3:** Now that her project folder is set up, she makes a backup before proceeding.
 
 **Note:** This question requires three commands.
