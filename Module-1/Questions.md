@@ -143,16 +143,28 @@ You can't push everything. If you commit now, you'll send unfinished work that c
 How can you commit and push only the finished authentication files while removing the unfinished ones from staging?
 
 
-a\. ```bash git reset --soft ```
+a\.
+```bash
+git reset --soft
+```
 
 
-b\. ```bash git restore --staged . ```
+b\.
+```bash
+git restore --staged .
+```
 
 
-c\. ```bash git reset --staged <file1> <file2> <file3> ```
+c\.
+```bash
+git reset --staged <file1> <file2> <file3>
+```
 
 
-d\. ```bash git restore --staged <file1> <file2> <file3>  ```
+d\.
+```bash 
+git restore --staged <file1> <file2> <file3>  
+```
 
 
 ---
