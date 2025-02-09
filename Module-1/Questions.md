@@ -74,15 +74,11 @@ fix it, or John Xina will be executed!
 ---
 
 
-*Question 5*:
-
-
-Who Really Wrote This Code?
+*Question 5*: **Who Really Wrote This Code?**
 
 
 You and your teammate, Sayed, are working together on his branch. You write an important piece of code, and Sayed says, "I'll commit this now!".
 The problem is that the one who committed the thing is Sayed, but you are the one **who really wrote this code**!! How should you fix that?
-
 
 
 ---
@@ -105,3 +101,30 @@ Now you are one of those military developers that build this GIS database using 
 
 
 ---
+
+
+*Question 7*: **The Race Against the Merge**
+
+
+You've been working hard, but just as you're about to commit, you staged all your work as you're about to finish. The code has some little bugs that need just some last touches to be clean and bug-free. But before fixing these little things in your code (that also needs some time to fix) you went to check the remote repository and—boom—your teammates have already merged their work!
+
+Your teammate, Layla, sends a message:
+"Hey! We finished early and need the authentication functions you worked on, can you push them now?"
+
+You glance at your working directory. **The authentication functions are ready**, but your other changes are a complete mess—half-written code, debug logs, and broken tests.
+
+You can't push everything. If you commit now, you'll send unfinished work that could break the project. But you also don't have time to clean up every file manually.
+
+**The Challenge**:
+
+How can you commit and push only the finished authentication files while removing the unfinished ones from staging?
+
+
+a. ```bash git reset --soft ```
+b. ```bash git restore --staged . ```
+c. ```bash git reset --staged <file1> <file2> <file3> ```
+d. ```bash git restore --staged <file1> <file2> <file3>  ```
+
+
+---
+

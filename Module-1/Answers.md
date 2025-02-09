@@ -53,3 +53,9 @@ git log ***[--filename]*** *optional*
 ```bash
 git diff HEAD
 ```
+
+
+7)
+```bash
+git restore --staged <file1> <file2> <file3>
+```
