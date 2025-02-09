@@ -111,9 +111,11 @@ Now you are one of those military developers that build this GIS database using 
 <details>
 
 <summary>
-**Hint**
+<h6>
+   Hint
+</h6>
 </summary>
-
+<br>
   **Assume the last certified map is a pointee of the HEAD**
 
 </details>
