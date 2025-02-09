@@ -101,7 +101,7 @@ The problem is that the one who committed the thing is Sayed, but you are the on
 Now you are one of those military developers that build this GIS database using git, which git command you will use to develop a functionality that shows the staff officers the difference between the map with new modifications and the last certified map?
 
 
-**Hint: assume the last certified map is a pointee of the HEAD**
+****Hint: assume the last certified map is a pointee of the HEAD****
 
 
 ---
