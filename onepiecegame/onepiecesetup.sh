@@ -1,20 +1,25 @@
 #!/bin/bash
 
-echo "\U0001F3F4‍☠️ Setting up One Piece Treasure Hunt Adventure... \U0001F3F4‍☠️"
+# Ensure script runs as root
+if [[ $EUID -ne 0 ]]; then
+   echo "❌ This script must be run as root!"
+   exit 1
+fi
 
-# Step 1: Create the 'strawhats' group
-echo "\U0001F6E0 Creating group 'strawhats'..."
-groupadd strawhats
+# Verify users and groups exist
+for user in luffy keeper; do
+    if ! id "$user" &>/dev/null; then
+        echo "❌ User '$user' does not exist. Please create the users before running the script!"
+        exit 1
+    fi
+done
 
-# Step 2: Create users and add them to the group
-echo "\U0001F464 Creating users Luffy and Keeper..."
-useradd -m -s /bin/bash -G strawhats luffy
-useradd -m -s /bin/bash -G strawhats keeper
+if ! getent group strawhats > /dev/null; then
+    echo "❌ Group 'strawhats' does not exist. Please create it before running the script!"
+    exit 1
+fi
 
-# Step 3: Set passwords for users
-echo "\U0001F511 Setting passwords..."
-echo "luffy:pirateking" | chpasswd
-echo "keeper:gatekeeper" | chpasswd
+echo "✅ Users and group exist. Setting up the game environment..."
 
 # Step 4: Create game directories
 echo "\U0001F4C2 Creating adventure locations..."
