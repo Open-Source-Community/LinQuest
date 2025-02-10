@@ -16,7 +16,6 @@ sudo useradd -m keeper
 Once users are created, run the script to set up the treasure hunt environment.
 
 ```bash
-chmod +x onepiecesetup.sh
 sudo ./onepiecesetup.sh
 ```
 
