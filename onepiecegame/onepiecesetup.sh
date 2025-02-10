@@ -1,25 +1,29 @@
 #!/bin/bash
 
-# Ensure script runs as root
-if [[ $EUID -ne 0 ]]; then
-   echo "❌ This script must be run as root!"
-   exit 1
-fi
+# Function to check if a user exists
+user_exists() {
+    id "$1" &>/dev/null
+}
 
-# Verify users and groups exist
-for user in luffy keeper; do
-    if ! id "$user" &>/dev/null; then
-        echo "❌ User '$user' does not exist. Please create the users before running the script!"
-        exit 1
-    fi
-done
+# Function to check if a group exists
+group_exists() {
+    getent group "$1" &>/dev/null
+}
 
-if ! getent group strawhats > /dev/null; then
-    echo "❌ Group 'strawhats' does not exist. Please create it before running the script!"
+# Check if the required group and users exist
+if ! group_exists strawhats || ! user_exists luffy || ! user_exists keeper; then
+    echo "❌ The legendary Straw Hats crew is incomplete!"
+    echo "⚠️ You must create the 'strawhats' group and the 'luffy' and 'keeper' users first."
+    echo "👉 Once they are created, rerun this script."
     exit 1
 fi
 
-echo "✅ Users and group exist. Setting up the game environment..."
+echo "✅ The Straw Hats crew is assembled! Proceeding with the treasure hunt setup..."
+
+# Ensure default shell is /bin/bash
+usermod -s /bin/bash luffy
+usermod -s /bin/bash keeper
+
 # add password
 echo "luffy:pirateking" | chpasswd
 echo "keeper:gatekeeper" | chpasswd
