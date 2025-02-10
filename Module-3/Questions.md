@@ -1,5 +1,5 @@
 # Module [3] : **"Creating Links & Finding Files"**
-### [1] Soft links:
+### [1] Creating links:
 1. **Scenario:** Minty is organizing his project files and accidentally deletes a file named `IMPORTANT.txt`. However, he remembers creating a soft link to it named `important_link`.  
 **Question:** What happens when he tries to access `important_link`?  
 
@@ -44,35 +44,35 @@ This is the command she wrote:
 
 <br>
 
-6. **Scenario:** You're name is Abel and you lost your memory. You find a weird note and you try to read it. 
-**Question:** How can you read the file?  
+6. **Scenario:** You're name is Debianor and you lost your memory. You find a weird note and you try to read it.   
+**Question:** How can you read the file `note.txt` ?  
 
 <br>
 
-7. **Scenario:** After reading note, you find a part of your data or to be exact, memory and more about who you are. You gotta find a way to remember your powers. So, you gotta listen to the note.
+7. **Scenario:** After reading note, you find a part of your data or to be exact, memory and more about who you are. You gotta find a way to remember your powers. So, you gotta listen to the note.  
 **Question:** How can you find the hidden folder?
 
 <br>
 
-8. **Scenario:** Now, you knew your first power, you gotta use it, you know? Your next goal is to link two portals in a way that if you changed or removed the main portal, the one that you made won't work also.
+8. **Scenario:** Now, you knew your first power, you gotta use it, you know? Your next goal is to link two portals in a way that if you changed or removed the main portal, the one that you made won't work also.  
 **Question:** How will you be able to link the portal to your home to your current location? (name the link "Earth")  
 
 <br>
 
-9. **Scenario:** You forgot to close the portal but gladly, the note reminded you. Go and remove the portal 
+9. **Scenario:** You forgot to close the portal but gladly, the note reminded you. Go and remove the portal.   
 **Question:** remove the Earth portal
 
 <br>
 
-10. **Scenario:** You can't stop thinking about the reason why would removing the Earth portal
+10. **Scenario:** You can't stop thinking about the reason why would removing the Earth portal.  
 **Question:** Why or how is that possible?
 
-    - **a)** Because Abel is a genius
+    - **a)** Because Debianor is a genius
     - **b)** Because removing the main file stops the soft link from working
     - **c)** Because a portal can't work if one side is missing
     - **d)** Idk
 
 <br>
 
-11. **Scenario:** After a long day escaping, you think "I'm hungry" so, you go to a restaurant but you're lazy to walk and thought "I can make portals". You have to make a portal to the restuarant that stays if you closed one from any side 
+11. **Scenario:** After a long day escaping, you think "I'm hungry" so, you go to a restaurant but you're lazy to walk and thought "I can make portals". You have to make a portal to the restuarant that stays if you closed one from any side.   
 **Question:** How will you be able to link the portal to restuarant to your home so that if you removed the main portal, the other stays?
