@@ -1,90 +1,117 @@
-# One Piece Treasure Hunt - README
+# 🏴‍☠️ One Piece Treasure Hunt – Setup & Play Guide
 
-## 🏴‍☠️ Overview
-This is an interactive Linux-based treasure hunt inspired by *One Piece*! You must follow the clues, navigate the system, and use your Linux skills to unlock the legendary **One Piece**!
+## **1️⃣ Step 1: Create Users & Group**
+Before running the script, you **must manually create** the required users and group.  
+Run the following commands:
 
-## 🚀 How to Start
-1. Run the setup script:
-   ```bash
-   sudo bash setup_script.sh
-   ```
-2. If you see an error about missing users or groups, follow the instructions to create them and rerun the script.
-3. Once setup is complete, log in as *Luffy*:
-   ```bash
-   su - luffy
-   ```
+\`\`\`bash
+sudo groupadd strawhats
+sudo useradd -m -G strawhats luffy
+sudo useradd -m keeper
+\`\`\`
 
-## 🏆 Your Goal
-- Find the **golden key**
-- Unlock the **One Piece vault**
-- Discover the **true treasure of the Pirate King**
+---
 
-## 🗺️ Step-by-Step Guide
+## **2️⃣ Step 2: Run the Setup Script**
+Once users are created, run the script to set up the treasure hunt environment.
 
-### 🔍 Step 1: Follow the First Hint
-- Start by checking the hint in **Laugh Tale Vault**:
-  ```bash
-  cat /laugh_tale/vault/hint.txt
-  ```
-- It mentions that the golden key is in the **Stronghold** with *Keeper*.
+\`\`\`bash
+chmod +x onepiecesetup.sh
+sudo ./onepiecesetup.sh
+\`\`\`
 
-### 🔑 Step 2: Get the Golden Key
-- You need access to **/stronghold**
-- Try listing the directory:
-  ```bash
-  ls -l /stronghold
-  ```
-- Check the hint inside:
-  ```bash
-  cat /stronghold/hint.txt
-  ```
-- To get the **golden key**, you may need *Keeper’s* help...
-- Log in as **Keeper**:
-  ```bash
-  su - keeper
-  ```
-- Locate the **hidden key**:
-  ```bash
-  ls -la /stronghold
-  ```
-- Read the key file:
-  ```bash
-  cat /stronghold/.golden_key.zip
-  ```
-- Note down the **SECRET_KEY**.
+If the setup is successful, you’ll see:
+\`\`\`
+✅ One Piece Treasure Hunt setup complete!
+👉 Log in as 'luffy' and follow the hints to claim the treasure!
+\`\`\`
 
-### 💰 Step 3: Unlock the Vault
-- Switch back to *Luffy*:
-  ```bash
-  su - luffy
-  ```
-- Try accessing **One Piece**:
-  ```bash
-  cat /laugh_tale/vault/one_piece
-  ```
-- If access is denied, you might need to use the **golden key**.
+---
 
-### 🏝️ Step 4: The Final Clue
-- Look inside **Mystery Island** for another clue:
-  ```bash
-  cat /grand_line/mystery_island/clue.txt
-  ```
-- It leads you to **Captain Roger’s Room**.
+## **3️⃣ Step 3: Log in as Luffy**
+Switch to **Luffy** to begin your adventure:
 
-### ⚡ Step 5: Discover the True Treasure
-- Navigate to the **Captain’s Room**:
-  ```bash
-  ls /rogers_ship/captains_room
-  ```
-- Read **Roger’s Legacy**:
-  ```bash
-  cat /rogers_ship/captains_room/legacy.txt
-  ```
-- You’ve uncovered the **Will of D!** 🎉
+\`\`\`bash
+su - luffy
+\`\`\`
+(Password: \`pirateking\`)
 
-## 🎯 Victory!
-- If you followed all steps and read **legacy.txt**, you have completed the treasure hunt!
-- You are now worthy of the title **Pirate King!** 👑
+---
 
-Enjoy your adventure, Captain! 🏴‍☠️
+## **4️⃣ Step 4: The Hunt Begins!**
+Start by checking **your first hint**:
 
+\`\`\`bash
+ls -l /laugh_tale/vault/
+cat /laugh_tale/vault/hint.txt
+\`\`\`
+
+📜 **Hint:**  
+> "The golden key is hidden somewhere in the Stronghold. Keeper may have it..."
+
+---
+
+## **5️⃣ Step 5: Enter the Stronghold**
+Try accessing the **Stronghold**:
+
+\`\`\`bash
+ls -ld /stronghold
+\`\`\`
+🚫 **Access Denied!**
+
+🔑 **Solution:**  
+Log in as **Keeper** to check for the golden key:
+
+\`\`\`bash
+su keeper
+\`\`\`
+(Password: \`gatekeeper\`)
+
+Now, check inside the **Stronghold**:
+
+\`\`\`bash
+ls -la /stronghold/
+cat /stronghold/hint.txt
+\`\`\`
+
+📜 **Hint:**  
+> "Luffy, if you want the key, prove you're worthy!"
+
+Find and unlock **\`.golden_key.zip\`**:
+
+\`\`\`bash
+chmod 444 /stronghold/.golden_key.zip
+cat /stronghold/.golden_key.zip
+\`\`\`
+🔑 **The golden key password is revealed!**
+
+---
+
+## **6️⃣ Step 6: Unlock the One Piece Treasure!**
+Now, return to **Luffy** and unlock the treasure vault.
+
+\`\`\`bash
+su - luffy
+cd /laugh_tale/vault/
+ls -l
+\`\`\`
+
+You’ll see **one_piece.zip**, but it’s locked!
+
+Use the password from \`.golden_key.zip\` to open it:
+
+\`\`\`bash
+unzip -P "onepiece123" one_piece.zip
+cat one_piece.txt
+\`\`\`
+
+🎉 **Congratulations! You found the One Piece!** 🎉
+
+---
+
+## **🏆 Achievements & Rewards**
+🏅 **"Treasure Hunter"** – Found the **Golden Key**  
+🏅 **"Lockpicker"** – Unlocked **One Piece**  
+🏅 **"Pirate King"** – Discovered **Roger’s Legacy**  
+
+⏳ **Speedrun Challenge:** Complete within **5 minutes** to earn **"Fastest Pirate"** 🏴‍☠️  
