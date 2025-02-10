@@ -41,6 +41,8 @@ su - luffy
 Start by checking **your first hint**:
 
 ```bash
+chmod 700 /laugh_tale/vault/
+chmod 700 /laugh_tale/vault/hint.txt
 ls -l /laugh_tale/vault/
 cat /laugh_tale/vault/hint.txt
 ```
@@ -69,7 +71,9 @@ su keeper
 Now, check inside the **Stronghold**:
 
 ```bash
+chmod 700 /stronghold
 ls -la /stronghold/
+chmod 700 /stronghold/hint.txt
 cat /stronghold/hint.txt
 ```
 
