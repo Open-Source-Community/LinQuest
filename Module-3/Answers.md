@@ -40,3 +40,13 @@
     ```bash
     ln NomNom_restuarnant/Door_Portal <any name is acceptable>
     ```
+
+12.  a) `ls -a`
+
+13.  c) `ls -l M*`
+
+14.  b) `cd /usr/games`
+
+15.  d) A & B
+
+16. you know you can use `ls *any*` to find files with known characters. you can write `ls *mi[Nn]t*` to list all files with capital & non-capital N .

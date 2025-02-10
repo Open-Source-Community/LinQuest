@@ -76,3 +76,49 @@ This is the command she wrote:
 
 11. **Scenario:** After a long day escaping, you think "I'm hungry" so, you go to a restaurant but you're lazy to walk and thought "I can make portals". You have to make a portal to the restuarant that stays if you closed one from any side.   
 **Question:** How will you be able to link the portal to restuarant to your home so that if you removed the main portal, the other stays?
+
+### [2] Finding files:
+12. **Scenario:** Nora opened her friend Sara's device to find that all files are hidden, she wants to list all hidden files.
+**Question:** Which ls option should she use?
+
+    - **a)** `ls -a`
+    - **b)** `ls -l`
+    - **c)** `ls -h`
+    - **d)** `ls ~`
+
+<br>
+
+13. **Scenario:** Khalid wants to find all the files that start with the letter *M* (manager files) with details.
+**Question:** What command should he use?
+
+    - **a)** `ls M*`
+    - **b)** `ls -M`
+    - **c)** `ls -l M*`
+    - **d)** `A & C`
+
+<br>
+
+14. **Scenario:** Minty created a new vertion of Tetris named `tetris.exe` but it is lost in `/games` directory.
+**Question:** Which command will take you directly to the games directory?
+
+    - **a)** `cd games`
+    - **b)** `cd /usr/games`
+    - **c)** `cd ../usr/games`
+    - **d)** `cd ~/usr/games`
+
+<br>
+
+15. **Scenario:** Minty gave you a secret code in `Konami.txt` (first 'konami' letters) in `/games` (you are in `~`).
+**Question:** how to find the code?
+
+    - **a)** `cd /games` then `head -c 6 Konami.txt`
+    - **b)** `head -c 6 /games/Konami.txt`
+    - **c)** `tail -c 6 /games/Konami.txt`
+    - **d)** A & B
+
+<br>
+
+16. **Scenario:** Minty (for some reason) downloaded an app that allows others to control his caps lock key remotely, and now there is a file in his directory called `mint.txt` (or `miNt.txt` we don't know). you need to find it now.
+**Question:** What will you do to find it?
+
+<br>
