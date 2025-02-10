@@ -172,3 +172,17 @@ To find out which folders/files in your current directory are the biggest, you c
 ```bash
     ls project_backup
 ```
+
+---
+
+## Answer 11:
+
+Ali can use the find command to search for the file:
+```bash
+    find ~ -type f -name "research.docx"
+```
+
+rename it:
+```bash
+    mv /home/ali/Downloads/research.docx ~/Documents/
+```

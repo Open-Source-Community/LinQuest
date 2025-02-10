@@ -13,7 +13,7 @@ Which command will take you directly to /var/log?
  - c) cd ~/var/log
  - d) cd home/var/log
 
---------------------------------------------------------------------------
+---
 
 ## Question 2: Finding Help in Linux
 
@@ -28,7 +28,7 @@ Which command provides the most detailed manual for ls?
  -  c) info ls
  -  d) Both b and c
 
---------------------------------------------------------------------------
+---
 
 ## Question3: Move a File
 
@@ -40,7 +40,7 @@ Write the command to move sys_report.txt to /var/log/reports/.
 ```bash
     # Write the command here
 ```
---------------------------------------------------------------------------
+---
 ## Question 4: 
 
 Scenario:
@@ -83,7 +83,7 @@ Write the command to list the files in /home/user/Reports/.
     # Write the command here
 
 ```
---------------------------------------------------------------------------
+---
 
 ## Question 5:
 
@@ -93,7 +93,7 @@ You're a junior Linux administrator, and your manager has just sent you a compre
     # Write the commands here
 
 ```
---------------------------------------------------------------------------
+---
 
 ## Question 6:
 
@@ -141,3 +141,13 @@ What should she do first?
 **Task 3:** Now that her project folder is set up, she makes a backup before proceeding.
 
 **Note:** This question requires three commands.
+
+---
+
+## Question 11:
+
+Ali had been working on a research paper for weeks, but today, when he went to open his document, it was gone! He knew he had saved research.docx somewhere, but he couldn't remember where.
+
+Frustrated, he thought, Maybe I can search for it instead of clicking through every folder manually. Once he found it, he planned to move it back to his Documents folder.
+
+**How can he find and move the file?**
