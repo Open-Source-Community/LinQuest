@@ -2,6 +2,5 @@
 - tell the user the command of unzip: 
     ``` unzip -P``` 
 
-    1 exe
-     read
-    7 all
+- make from step 4 till the end to do sth cool instead of just cat the files
+- till now we made the chmod , useradd , groupadd , su , unzip
