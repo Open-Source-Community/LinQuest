@@ -182,7 +182,7 @@ Ali can use the find command to search for the file:
     find ~ -type f -name "research.docx"
 ```
 
-rename it:
+Move it:
 ```bash
     mv /home/ali/Downloads/research.docx ~/Documents/
 ```
