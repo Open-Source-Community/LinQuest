@@ -4,11 +4,10 @@
 Before running the script, you **must manually create** the required users and group.  
 Run the following commands:
 
-\`\`\`bash
+```bash
 sudo groupadd strawhats
 sudo useradd -m -G strawhats luffy
-sudo useradd -m keeper
-\`\`\`
+sudo useradd -m keeper```
 
 ---
 
