@@ -25,6 +25,10 @@ Your password is
 \\\bash
 pirateking
 \\\
+and for keeper the password is
+\\\bash
+gatekeeper
+\\\
 Now, go to laugh_tale directory and from it reach the hint file.
 
 ---
@@ -59,9 +63,9 @@ The **One Piece** is protected. Even if you reach the vault, you may not be able
 There may be a **final puzzle** standing in your way.
 
 use this command to unlock your treasure.
-\`\`\`bash
+\\\bash
 unzip -P password file_name
-\`\`\`
+\\\
 
 Find the **missing piece** to unlock the legendary treasure.
 
