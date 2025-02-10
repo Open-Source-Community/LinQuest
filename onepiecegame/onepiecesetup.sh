@@ -20,6 +20,9 @@ if ! getent group strawhats > /dev/null; then
 fi
 
 echo "✅ Users and group exist. Setting up the game environment..."
+# add password
+echo "luffy:pirateking" | chpasswd
+echo "keeper:gatekeeper" | chpasswd
 
 # Step 4: Create game directories
 echo "\U0001F4C2 Creating adventure locations..."
