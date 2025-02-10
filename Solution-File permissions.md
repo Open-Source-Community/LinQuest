@@ -76,4 +76,58 @@
         
            ls -l fishing_only_for_binka
     
+------------------------------------------------------------------
+## Question 3
+   1.  __#create folder__
+   
+       
+            mkdir fish_heist
+
+   2.  __#add kitty as a user__
+            
+        
+           sudo useradd Kitty
+
+   3. __#add "fish_lovers" group__
+   
+       
+           sudo groupadd fish_lovers
+
+   4. __#add kitty to fish_lovers__
           
+          sudo usermod -aG  fish_lovers Kitty
+
+   5. __#give permissions to kitty and the group__
+           
+           sudo chown Kitty:fish_lovers fish_heist/
+
+   6.   __#change permissions__
+   
+          
+          
+            sudo chmod 760 fish_heist/
+
+   7. __#make sure of the changes__
+                
+    
+           ls -ld fish_heist/
+
+
+-----------------------------------------------------------------
+
+## Question 4
+
+
+
+1.  __# change permissions__
+         
+         sudo chmod 600 misho_project.txt
+
+2. __# comprise file__
+
+         bzip2 misho_project.txt
+
+3.  __# make sure of changes : permissions , comprission__   
+    
+      
+         ls -l misho_project.txt          
