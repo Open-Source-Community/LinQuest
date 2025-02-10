@@ -1,4 +1,5 @@
 # Level 2 sol. 
+* `nano readme.md`
 * `cd darkness` 
 * `ls -a` 
 * `mv .Stories.tar.gz Stories`
@@ -15,4 +16,4 @@
 * `cd lamp`
 * `ls`
 * `gzip -d light.txt`
-* `cd light.txt` 
+* `nano light.txt` 
