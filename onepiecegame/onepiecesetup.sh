@@ -62,7 +62,7 @@ chown luffy:strawhats /laugh_tale/vault/one_piece.txt /laugh_tale/vault/hint_2.t
 
 # Create a password-protected ZIP file using the golden key
 zip -P "onepiece123" /laugh_tale/vault/one_piece.zip /laugh_tale/vault/one_piece.txt
-rm /laugh_tale/vault/one_piece.txt  # Remove the original file
+rm -f /laugh_tale/vault/one_piece.txt  # Remove the original file
 
 # Ensure luffy is the owner of the locked file
 chown luffy:strawhats /laugh_tale/vault/one_piece.zip
