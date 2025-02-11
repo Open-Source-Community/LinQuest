@@ -50,21 +50,28 @@ git log ***[--filename]*** *optional*
 
 
 6)
+
 ```bash
 git diff HEAD
 ```
 
 
-)7
+7)
+```bash
+git restore --staged <file1> <file2> <file3>
+```
+
+
+8)
 ```bash
 git revert
 ```
 
-8)
+9)
 ```bash
 git commit -m " Message"
 ```
-9)
+10)
 ```bash 
 git log --author="Omar"
 ```
@@ -74,7 +81,7 @@ git tag -a Omar_Final -m "Signed by Omar: Final version for print"
 ```
 
 
-10)
+11)
 
 ```bash
 git branch luna-vocals  

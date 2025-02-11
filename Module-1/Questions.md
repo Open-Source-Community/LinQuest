@@ -5,14 +5,26 @@
 
 A civil war outbreak in **Onga Bonga Republic of Wakanda**, the legitimate government in the capital **Gogogo** was surrounded by rebels from all directions except the south gate of the city, so the government decided to withdraw and evacuate the city quickly to another city called **Yaba Yaba**, and they want to take all the important governmental files and papers with them but this process will take long time and there is no time for that. One engineer suggests to scan all the files and put them in a local repository on a computer, and send a back-up of this data to a repository established by allied forces of **Kingdom of Tears** on a safe server, so which command you suggest to be used to send the data to this safe repository??
 
-1. git pull
-2. git add .
-3. git commit
-4. git push
+1.
+```bash
+git pull
+```
+2.
+```bash
+git add .
+```
+3.
+```bash
+git commit
+```
+4.
+```bash
+git push
+```
 
 ---
 
-<span style="color: red;">*Question 2*:</span>
+*Question 2*:
 
 
 Congratulations! Mr. President of The **United Regions of Murica**, ***Francis Joseph Underwood***.
@@ -21,7 +33,7 @@ You now have full control on the government, and now your Executive of DOGE (Dep
 ---
 
 
-<span style="color: red;">*Question 3*:</span>
+*Question 3*:
 
 
  Adolf is an IT employee in the **Reich Inc. for electronic burning services**, the company has various software products and recently their business were booming, so they hired many new employees, that makes Adolf want to setup git for every new employee and this cost him time, so he decided to use a bash function with dynamic values passed to it to setup it quickly, he named the function *"gitsetup()"*.
@@ -74,15 +86,11 @@ fix it, or John Xina will be executed!
 ---
 
 
-*Question 5*:
-
-
-Who Really Wrote This Code?
+*Question 5*: **Who Really Wrote This Code?**
 
 
 You and your teammate, Sayed, are working together on his branch. You write an important piece of code, and Sayed says, "I'll commit this now!".
 The problem is that the one who committed the thing is Sayed, but you are the one **who really wrote this code**!! How should you fix that?
-
 
 
 ---
@@ -100,8 +108,63 @@ The problem is that the one who committed the thing is Sayed, but you are the on
 
 Now you are one of those military developers that build this GIS database using git, which git command you will use to develop a functionality that shows the staff officers the difference between the map with new modifications and the last certified map?
 
+<details>
 
-**Hint: assume the last certified map is a pointee of the HEAD**
+<summary>
+<h4>
+   Hint
+</h4>
+</summary>
+<br>
+  **Assume the last certified map is a pointee of the HEAD**
+
+</details>
+
+
+
+
+---
+
+
+*Question 7*: **The Race Against the Merge**
+
+
+You've been working hard, but just as you're about to commit, you staged all your work as you're about to finish. The code has some little bugs that need just some last touches to be clean and bug-free. But before fixing these little things in your code (that also needs some time to fix) you went to check the remote repository and—boom—your teammates have already merged their work!
+
+Your teammate, Layla, sends a message:
+"Hey! We finished early and need the authentication functions you worked on, can you push them now?"
+
+You glance at your working directory. **The authentication functions are ready**, but your other changes are a complete mess—half-written code, debug logs, and broken tests.
+
+You can't push everything. If you commit now, you'll send unfinished work that could break the project. But you also don't have time to clean up every file manually.
+
+**The Challenge**:
+
+How can you commit and push only the finished authentication files while removing the unfinished ones from staging?
+
+
+a\.
+```bash
+git reset --soft
+```
+
+
+b\.
+```bash
+git restore --staged .
+```
+
+
+c\.
+```bash
+git reset --staged <file1> <file2> <file3>
+```
+
+
+d\.
+```bash 
+git restore --staged <file1> <file2> <file3>  
+```
 
 
 ---
