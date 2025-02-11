@@ -53,3 +53,37 @@ git log ***[--filename]*** *optional*
 ```bash
 git diff HEAD
 ```
+
+
+)7
+```bash
+git revert
+```
+
+8)
+```bash
+git commit -m " Message"
+```
+9)
+```bash 
+git log --author="Omar"
+```
+
+```bash
+git tag -a Omar_Final -m "Signed by Omar: Final version for print"  
+```
+
+
+10)
+
+```bash
+git branch luna-vocals  
+git branch rio-guitar  
+git branch zara-drums  
+```
+
+```bash 
+
+git checkout main
+git merge --no-ff luna-vocals rio-guitar zara-drums  
+```

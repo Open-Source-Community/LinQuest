@@ -105,3 +105,38 @@ Now you are one of those military developers that build this GIS database using 
 
 
 ---
+
+
+
+*Question 7*:
+
+Hello **Eng. Berkov*** ,
+We are sorry for waking up you at midnight ,but we have a big problem 
+the stuff of nightshift make a lot of changes in the settings of the nuclear controller and
+ we don't know how to revert the the pervious settings, we know it easy for you to do that 
+
+---
+
+*Question 8*:
+
+Omar has a weak memory , he always forget why he made that and did that,
+ the misrable problem he not live alone in the home, there's another humans lives with him
+Help him to comment his actions.
+
+---
+*Question 9*:
+
+oh, Bad day I came to work without the keys of my office,
+ I can't back to my home to get it, i Have a lot of work in drawing the comic of "Halk Smash", 
+ My work mate Edison suggest to share  his office with me to finish my work, I did that. 
+But tommorrow when the office boy come to take the drawing how can he know my draws from Edison's draw, We need two git commands for different situations
+1) office boy will take only your job
+
+2) you will signture your job 
+
+---
+
+*Question 10*:
+The indie band “Pixel Beats” (Luna, Rio, and Zara) are recording their debut album. Each member edits the same music file (track_master.mp3) on a shared laptop. Chaos erupts when Luna’s vocals overwrite Rio’s guitar solo, and Zara’s drum track disappears. They need to recover their work and collaborate without clashes!
+
+---
