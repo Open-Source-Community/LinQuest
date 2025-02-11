@@ -171,7 +171,7 @@ git restore --staged <file1> <file2> <file3>
 
 
 
-*Question 7*:
+*Question 8*:
 
 Hello **Eng. Berkov*** ,
 We are sorry for waking up you at midnight ,but we have a big problem 
@@ -180,14 +180,14 @@ the stuff of nightshift make a lot of changes in the settings of the nuclear con
 
 ---
 
-*Question 8*:
+*Question 9*:
 
 Omar has a weak memory , he always forget why he made that and did that,
  the misrable problem he not live alone in the home, there's another humans lives with him
 Help him to comment his actions.
 
 ---
-*Question 9*:
+*Question 10*:
 
 oh, Bad day I came to work without the keys of my office,
  I can't back to my home to get it, i Have a lot of work in drawing the comic of "Halk Smash", 
@@ -199,7 +199,7 @@ But tommorrow when the office boy come to take the drawing how can he know my dr
 
 ---
 
-*Question 10*:
+*Question 11*:
 The indie band “Pixel Beats” (Luna, Rio, and Zara) are recording their debut album. Each member edits the same music file (track_master.mp3) on a shared laptop. Chaos erupts when Luna’s vocals overwrite Rio’s guitar solo, and Zara’s drum track disappears. They need to recover their work and collaborate without clashes!
 
 ---
