@@ -8,4 +8,4 @@ To escape, he must:
 1. Find the story file, which contains clues.
     * **Be careful, there are many story files!**
 1. Use the story file to locate `lamp` directory, which will help him see.
-1. Search for and open `light.txt`, which turns on the light and unlocks the exit.
+1. Search for and open `light`, which turns on the light and unlocks the exit.
